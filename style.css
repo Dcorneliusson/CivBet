@@ -1,18 +1,38 @@
-body {
+body{
     font-family: Arial;
-    text-align: center;
-    background: #1e1e1e;
-    color: white;
-    margin-top: 80px;
+    text-align:center;
+    background:#111;
+    color:white;
+    padding:40px;
 }
 
-input {
-    padding: 10px;
-    margin: 8px;
+.bank-box{
+    border:2px solid white;
+    padding:25px;
+    width:400px;
+    margin:auto;
+    border-radius:12px;
 }
 
-button {
-    padding: 12px 25px;
-    font-size: 16px;
-    cursor: pointer;
+.events-box{
+    margin-top:40px;
+}
+
+.event{
+    border:1px solid gray;
+    padding:20px;
+    width:400px;
+    margin:auto;
+    border-radius:10px;
+}
+
+input{
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    cursor:pointer;
 }
