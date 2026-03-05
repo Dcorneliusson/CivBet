@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CivMC Advanced Betting</title>
+<title>CivBet</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>💎 CivMC Betting</h1>
+<h1>💎 CivBet</h1>
 
-<div id="loginBox">
-<input id="username" placeholder="Minecraft Username">
-<button onclick="login()">Login</button>
+<div class="bank-box">
+<h2>🏦 Deposit Diamonds</h2>
+
+<p>
+To deposit diamonds into your CivBet account, send the amount of diamonds you would like to deposit to:
+</p>
+
+<h2>HS-3495</h2>
+<h3>Monument Bank</h3>
 </div>
 
-<div id="game" style="display:none">
+<hr>
 
-<h2 id="welcome"></h2>
+<div class="events-box">
 
-<p>Balance: <span id="balance">100</span> diamonds</p>
+<h2>🎯 Events To Bet On</h2>
+
+<div class="event">
+<h3>Will the war end this week?</h3>
+
+<p>Yes Odds: 1.8 | No Odds: 2.1</p>
 
 <input id="betAmount" placeholder="Bet diamonds">
 
-<br><br>
-
-<button onclick="coinflip()">Coinflip Bet</button>
-
-<h3 id="result"></h3>
+<button onclick="bet('yes')">Bet Yes</button>
+<button onclick="bet('no')">Bet No</button>
+</div>
 
 </div>
+
+<h2 id="balanceDisplay">Balance: 100 Diamonds</h2>
+
+<h3 id="result"></h3>
 
 <script src="app.js"></script>
 
