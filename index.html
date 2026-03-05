@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CivMC Advanced Betting</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>💎 CivMC Betting</h1>
+
+<div id="loginBox">
+<input id="username" placeholder="Minecraft Username">
+<button onclick="login()">Login</button>
+</div>
+
+<div id="game" style="display:none">
+
+<h2 id="welcome"></h2>
+
+<p>Balance: <span id="balance">100</span> diamonds</p>
+
+<input id="betAmount" placeholder="Bet diamonds">
+
+<br><br>
+
+<button onclick="coinflip()">Coinflip Bet</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
